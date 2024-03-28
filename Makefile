@@ -1,5 +1,5 @@
 CC=gcc
-C_FLAGS=-Wall -Werror -pedantic -g
+C_FLAGS= -std=gnu99 -Wall -Werror -pedantic -g
 L_FLAGS=-lm -lrt
 TARGET=main
 FILES=main.o hello.o
